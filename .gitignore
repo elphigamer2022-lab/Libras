@@ -1,0 +1,48 @@
+# =========================================================
+# REGRAS PADRÃO DO MODELO NODE/JS DO GITHUB
+# =========================================================
+
+# Dependências
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+lerna-debug.log
+
+# Arquivos de Runtime
+/build
+/dist
+/tmp
+/out
+
+# Variáveis de Ambiente e Cache do NPM/Yarn
+.npm
+.eslintcache
+.stylelintcache
+.sass-cache/
+
+# =========================================================
+# REGRAS DE SISTEMA OPERACIONAL
+# =========================================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# =========================================================
+# SEGURANÇA (CRUCIAL PARA O BANCO DE DADOS E CREDENCIAIS)
+# =========================================================
+
+# Arquivos que contêm as senhas, chaves de API e credenciais do BD.
+# NUNCA devem ser enviados ao GitHub.
+.env
+.env.*
+secrets.js
+config.js
